@@ -1,0 +1,54 @@
+@font-face {
+    font-family: fresh marker;
+    src: url(https://dl.dafont.com/dl/?f=fresh_marker);
+    font-weight:100;  
+}
+
+H1 {
+    font-family: fresh marker, Helvetica, Arial, sans-serif;
+    font-size: 200px;
+    font-weight: 200;
+    margin:center;
+    margin: auto;
+    display:inline-block;
+text-align:center;
+}
+
+html,
+body {
+  height: 100%;
+  background-color: #333;
+}
+
+.lead {justify-content: center;
+    max-width: 42em;
+}
+
+body {
+   
+    justify-content: center;
+    color: rgb(100, 18, 100);
+    
+    }
+
+.cover-container {
+  max-width: 42em;
+}
+
+  .cover {
+    padding: 0 1.5rem;
+  }
+  
+  .flash {
+    animation-name: flash;
+     animation-duration: 0.2s;
+     animation-timing-function: linear;
+     animation-iteration-count: infinite;
+     animation-direction: alternate;
+     animation-play-state: running;
+ }
+ 
+ @keyframes flash {
+     from {color: rgb(100, 18, 100);}
+     to {color: red;}
+ }
