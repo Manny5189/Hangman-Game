@@ -4,6 +4,14 @@
     font-weight:100;  
 }
 
+.wins {font-size: 50px;
+        margin: center;
+    margin: auto;
+    display:inline-block;
+    text-align:center;
+}
+
+
 H1 {
     font-family: fresh marker, Helvetica, Arial, sans-serif;
     font-size: 200px;
@@ -17,19 +25,9 @@ text-align:center;
 html,
 body {
   height: 100%;
-  background-color: #333;
-}
-
-.lead {justify-content: center;
-    max-width: 42em;
-}
-
-body {
-   
-    justify-content: center;
+  justify-content: center;
     color: rgb(100, 18, 100);
-    
-    }
+}
 
 .cover-container {
   max-width: 42em;
@@ -52,3 +50,7 @@ body {
      from {color: rgb(100, 18, 100);}
      to {color: red;}
  }
+
+ #right {
+    letter-spacing: 3px;
+  }
